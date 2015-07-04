@@ -14,6 +14,9 @@
 		102B38C41B478D0E00DAC0B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 102B38C31B478D0E00DAC0B8 /* Images.xcassets */; };
 		102B38C71B478D0E00DAC0B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 102B38C51B478D0E00DAC0B8 /* LaunchScreen.xib */; };
 		102B38D31B478D0E00DAC0B8 /* AnimationLineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B38D21B478D0E00DAC0B8 /* AnimationLineTests.m */; };
+		102B38DE1B478DC600DAC0B8 /* LineAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B38DD1B478DC600DAC0B8 /* LineAnimationView.m */; };
+		102B38E01B4792BC00DAC0B8 /* demo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 102B38DF1B4792BC00DAC0B8 /* demo@2x.png */; };
+		102B38E21B479EFC00DAC0B8 /* demo2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 102B38E11B479EFC00DAC0B8 /* demo2@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		102B38CC1B478D0E00DAC0B8 /* AnimationLineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationLineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		102B38D11B478D0E00DAC0B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		102B38D21B478D0E00DAC0B8 /* AnimationLineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationLineTests.m; sourceTree = "<group>"; };
+		102B38DC1B478DC600DAC0B8 /* LineAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineAnimationView.h; sourceTree = "<group>"; };
+		102B38DD1B478DC600DAC0B8 /* LineAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineAnimationView.m; sourceTree = "<group>"; };
+		102B38DF1B4792BC00DAC0B8 /* demo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demo@2x.png"; sourceTree = "<group>"; };
+		102B38E11B479EFC00DAC0B8 /* demo2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demo2@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +92,10 @@
 				102B38BB1B478D0E00DAC0B8 /* AppDelegate.m */,
 				102B38BD1B478D0E00DAC0B8 /* ViewController.h */,
 				102B38BE1B478D0E00DAC0B8 /* ViewController.m */,
+				102B38DC1B478DC600DAC0B8 /* LineAnimationView.h */,
+				102B38DD1B478DC600DAC0B8 /* LineAnimationView.m */,
+				102B38DF1B4792BC00DAC0B8 /* demo@2x.png */,
+				102B38E11B479EFC00DAC0B8 /* demo2@2x.png */,
 				102B38C01B478D0E00DAC0B8 /* Main.storyboard */,
 				102B38C31B478D0E00DAC0B8 /* Images.xcassets */,
 				102B38C51B478D0E00DAC0B8 /* LaunchScreen.xib */,
@@ -200,6 +211,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				102B38C21B478D0E00DAC0B8 /* Main.storyboard in Resources */,
+				102B38E01B4792BC00DAC0B8 /* demo@2x.png in Resources */,
+				102B38E21B479EFC00DAC0B8 /* demo2@2x.png in Resources */,
 				102B38C71B478D0E00DAC0B8 /* LaunchScreen.xib in Resources */,
 				102B38C41B478D0E00DAC0B8 /* Images.xcassets in Resources */,
 			);
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				102B38BF1B478D0E00DAC0B8 /* ViewController.m in Sources */,
+				102B38DE1B478DC600DAC0B8 /* LineAnimationView.m in Sources */,
 				102B38BC1B478D0E00DAC0B8 /* AppDelegate.m in Sources */,
 				102B38B91B478D0E00DAC0B8 /* main.m in Sources */,
 			);
