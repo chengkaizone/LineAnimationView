@@ -69,12 +69,14 @@
         
         _contentView.frame     = startRect;
         
-        CABasicAnimation *line = [CABasicAnimation animationWithKeyPath:@"bounds"];
-        line.fromValue         = [NSValue valueWithCGRect:startRect];
-        line.toValue           = [NSValue valueWithCGRect:endRect];
-        line.timingFunction    = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
-        line.duration          = _duration;
-        line.delegate          = self;
+        CABasicAnimation *line   = [CABasicAnimation animationWithKeyPath:@"bounds"];
+        line.fromValue           = [NSValue valueWithCGRect:startRect];
+        line.toValue             = [NSValue valueWithCGRect:endRect];
+        line.removedOnCompletion = YES;
+        line.fillMode            = kCAFillModeForwards;
+        line.timingFunction      = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
+        line.duration            = _duration;
+        line.delegate            = self;
         
         _contentView.frame     = endRect;
         [_contentView.layer addAnimation:line forKey:nil];
@@ -89,12 +91,14 @@
         
         _contentView.frame     = startRect;
         
-        CABasicAnimation *line = [CABasicAnimation animationWithKeyPath:@"bounds"];
-        line.fromValue         = [NSValue valueWithCGRect:startRect];
-        line.toValue           = [NSValue valueWithCGRect:endRect];
-        line.timingFunction    = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
-        line.duration          = _duration;
-        line.delegate          = self;
+        CABasicAnimation *line   = [CABasicAnimation animationWithKeyPath:@"bounds"];
+        line.fromValue           = [NSValue valueWithCGRect:startRect];
+        line.toValue             = [NSValue valueWithCGRect:endRect];
+        line.removedOnCompletion = YES;
+        line.fillMode            = kCAFillModeForwards;
+        line.timingFunction      = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
+        line.duration            = _duration;
+        line.delegate            = self;
         
         _contentView.frame     = startRect;
         [_contentView.layer addAnimation:line forKey:nil];
